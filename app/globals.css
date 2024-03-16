@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+html {
+  @apply h-full w-full;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  color: #00000a;
+}
+
+.hero-bg {
+  background-image: url("../public/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grad-btn {
+  @apply bg-btn-grad text-white px-6 py-2.5 font-medium rounded-md;
+}
+
+input:focus {
+  outline: none;
+}
